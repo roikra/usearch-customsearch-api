@@ -10,8 +10,8 @@ query = "taylor swift"
 page_number = 1
 search_engine_id = "Your-Search-Engine-Id"
 with_thumbnails = True
-to_published_date = ""
 from_published_date = ""
+to_published_date = ""
 
 querystring = {"q": query,
                "pageNumber": page_number,
