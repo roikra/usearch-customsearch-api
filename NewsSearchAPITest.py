@@ -17,8 +17,8 @@ querystring = {"q": query,
                "pageNumber": page_number,
                "searchEngineId": search_engine_id,
                "withThumbnails": with_thumbnails,
-               "fromPublishedDate": to_published_date,
-               "toPublishedDate": from_published_date}
+               "fromPublishedDate": from_published_date,
+               "toPublishedDate": to_published_date}
 
 response = requests.get(URL, headers=HEADERS, params=querystring).json()
 
